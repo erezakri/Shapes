@@ -72,7 +72,7 @@ public class CalloutBorder extends AbstractBorder {
         // create the callout "tip"
         int tipCenter = x+width/3;
         GeneralPath p = new GeneralPath();
-        p.moveTo(tipCenter-insets.top/2, y+insets.top/2);
+        p.moveTo(tipCenter-insets.left, y+insets.top/2);
         p.lineTo(tipCenter, 0);
         p.lineTo(tipCenter+insets.top/2, y+insets.top/2);
         p.closePath();
